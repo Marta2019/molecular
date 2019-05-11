@@ -9,6 +9,7 @@ def main():
         https://vk.com/dev/using_longpoll
         https://vk.com/dev/using_longpoll_2
     """
+    login, password = 'python@vk.com', 'mypassword'
     vk_session = vk_api.VkApi(token = '2ba57c12c3438e864e02990a74c2fa27ec08a27f75fd8972d63617c974b26fd21f8a92fbc38ac6270b025')
 
     try:
